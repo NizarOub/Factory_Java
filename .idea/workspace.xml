@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="58c79a72-c7c9-4091-a3b8-937145bf6252" name="Changes" comment="Second">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bankati/dao/IDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bankati/dao/IDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bankati/dao/daoMySQL/CreditDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bankati/dao/daoMySQL/CreditDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bankati/dao/exceptions/DaoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bankati/dao/exceptions/DaoException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -115,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680606910198</updated>
       <workItem from="1680606911293" duration="2551000" />
-      <workItem from="1680619169966" duration="9956000" />
+      <workItem from="1680619169966" duration="11125000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1680693208343</created>
@@ -138,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680696257287</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Second">
+      <created>1680697106851</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680697106851</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
