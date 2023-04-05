@@ -4,36 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58c79a72-c7c9-4091-a3b8-937145bf6252" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/dao/IDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/dao/exceptions/DaoConfigException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/dao/exceptions/DaoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/dao/filesRepository/CreditDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/dao/inMemoryRepository/CreditDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/jdbc/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/jdbc/TestJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/metier/CreditException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/metier/CreditMetier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/metier/IMetierCredit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/modele/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/modele/Credit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/modele/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/modele/Sexe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/modele/Utilisateur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/spring-ioc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bankati/AppTest.java" afterDir="false" />
+    <list default="true" id="58c79a72-c7c9-4091-a3b8-937145bf6252" name="Changes" comment="First">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/dao/DaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/dao/daoMySQL/ClientDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/dao/daoMySQL/CreditDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/dao/daoMySQL/MySqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/dao/daoMySQL/UtilisateurDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bankati/dao/daoMySQL/Utilitaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bankati/dao/IDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bankati/dao/IDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bankati/dao/exceptions/DaoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bankati/dao/exceptions/DaoException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,11 +121,34 @@
       <option name="presentableId" value="Default" />
       <updated>1680606910198</updated>
       <workItem from="1680606911293" duration="2551000" />
-      <workItem from="1680619169966" duration="6214000" />
+      <workItem from="1680619169966" duration="7697000" />
     </task>
+    <task id="LOCAL-00001" summary="First">
+      <created>1680693208343</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680693208343</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First" />
+    <option name="LAST_COMMIT_MESSAGE" value="First" />
   </component>
 </project>

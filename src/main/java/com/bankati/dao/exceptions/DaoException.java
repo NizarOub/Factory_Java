@@ -1,4 +1,4 @@
 package com.bankati.dao.exceptions;
 
-public class DaoException {
+public class DaoException extends Throwable {
 }
